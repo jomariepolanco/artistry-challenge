@@ -32,10 +32,10 @@ After modifying the schema, these are your deliverables:
 - instruments#index
     - list all instruments with their classifications -->
 
-5) I should also be able to save a new artist into the database. While it's possible for an artist to have the same name, an artist must have a name. An artist must also have an unique title. After successfully creating an artist, I should be taken to the artist's show page.
-artist #new/create
+<!-- 5) I should also be able to save a new artist into the database. While it's possible for an artist to have the same name, an artist must have a name. An artist must also have an unique title. After successfully creating an artist, I should be taken to the artist's show page. -->
+<!-- artist #new/create
     - save new artist into database
-    - redirect to artist#show
+    - redirect to artist#show -->
 <!-- validations
     - artist name uniqueness: false, presence: true
     - artist title uniqueness: true  -->
