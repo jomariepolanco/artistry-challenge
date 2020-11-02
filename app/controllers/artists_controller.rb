@@ -2,6 +2,7 @@ class ArtistsController < ApplicationController
     
     def index
         @artists = Artist.all 
+        @artist_instrument = ArtistInstrument.new 
         render :index 
     end
 
