@@ -7,7 +7,7 @@ Today, you have been tasked with building out a Rails application for a music st
 
 <!-- At this point, you should be considering the relationship between an `Artist` instance and an `Instrument` instance. How would an artist keep track of all the instruments that they play and how would you know about all the artists playing a specific instruments? -->
 
-Some parts of the application have already been built out for you and you should be able to run `rails db:migrate` and `rails db:seed`. However, consider how you might change the schema to build out the relationship as stated above.
+<!-- Some parts of the application have already been built out for you and you should be able to run `rails db:migrate` and `rails db:seed`. However, consider how you might change the schema to build out the relationship as stated above. -->
 
 After modifying the schema, these are your deliverables:
 
