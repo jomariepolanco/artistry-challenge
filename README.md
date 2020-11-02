@@ -12,14 +12,33 @@ Today, you have been tasked with building out a Rails application for a music st
 After modifying the schema, these are your deliverables:
 
 1) As a user, I should be able to fill out a form to connect an artist with an instrument from the database. This form should be made with at least one dropdown (potentially two dropdowns). Upon successfully creating the association, I should be redirected to the artist's show page.
+- artist_instrument form page
+    - collection select for artist
+    - collection select for instrument
+    - redirect to artist#show 
 
 2) In the artist's show page, I should be able to see the artist's age, title and name. I should also be able to see all the instruments that that specific artist plays.
+- artists#show
+    - artist age
+    - artist title
+    - artist name
+    - all instruments artist plays
 
 3) On the index page for an artist, there should be a list of all the artists' names. Clicking on one artist's name should take me to that artist's show page.
+- artist#index
+    - list of artists' name LINKED to artist#show page
 
-4) There should be an index page for all the instruments, where the name of all the instruments should be listed out, alongside each of their classifications.
+<!-- 4) There should be an index page for all the instruments, where the name of all the instruments should be listed out, alongside each of their classifications.
+- instruments#index
+    - list all instruments with their classifications -->
 
 5) I should also be able to save a new artist into the database. While it's possible for an artist to have the same name, an artist must have a name. An artist must also have an unique title. After successfully creating an artist, I should be taken to the artist's show page.
+artist #new/create
+    - save new artist into database
+    - redirect to artist#show
+<!-- validations
+    - artist name uniqueness: false, presence: true
+    - artist title uniqueness: true  -->
 
 <!-- Associations
 Artist
