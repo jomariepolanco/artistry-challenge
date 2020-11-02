@@ -17,16 +17,16 @@ After modifying the schema, these are your deliverables:
     - collection select for instrument
     - redirect to artist#show 
 
-2) In the artist's show page, I should be able to see the artist's age, title and name. I should also be able to see all the instruments that that specific artist plays.
+<!-- 2) In the artist's show page, I should be able to see the artist's age, title and name. I should also be able to see all the instruments that that specific artist plays.
 - artists#show
     - artist age
     - artist title
     - artist name
-    - all instruments artist plays
+    - all instruments artist plays -->
 
-3) On the index page for an artist, there should be a list of all the artists' names. Clicking on one artist's name should take me to that artist's show page.
+<!-- 3) On the index page for an artist, there should be a list of all the artists' names. Clicking on one artist's name should take me to that artist's show page.
 - artist#index
-    - list of artists' name LINKED to artist#show page
+    - list of artists' name LINKED to artist#show page -->
 
 <!-- 4) There should be an index page for all the instruments, where the name of all the instruments should be listed out, alongside each of their classifications.
 - instruments#index
